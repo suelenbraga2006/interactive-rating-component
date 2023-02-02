@@ -1,0 +1,62 @@
+:root {
+  --color-background: #131518;
+  --color-text-title: #ffffff;
+  --color-text-complement: #969fad;
+  --color-rating-background: #262e38;
+  --color-rating-background-hover: #fc7614;
+  --color-rating-text: #7c8798;
+  --color-rating-text-hover: #ffffff;
+  --color-rating-background-focus: #7c8798;
+  --color-rating-text-focus: #ffffff;
+  --color-button-background: #fc7614;
+  --color-button-background-hover: #ffffff;
+  --color-button-text: #ffffff;
+  --color-button-text-hover: #fc7614;
+  --color-star-background: #262e38;
+  --color-text-selected-message: #fc7614;
+
+  font-size: 60%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100vh;
+}
+
+body {
+  background: var(--color-background);
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 400 1.6rem Overpass;
+  color: var(--color-text-title);
+}
+
+.container {
+  width: 327px;
+  height: 360px;
+  border-radius: 30px;
+  padding: 25px;
+
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+}
