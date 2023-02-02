@@ -9,7 +9,7 @@ function ThankYou(props) {
 
   return (
     <div className="container" id="thankyou">
-      <img src={thanks} alt="Thank You!" width={144} />
+      <img src={thanks} alt="Thank You!" />
       <span>You selected {location.state + 1} out of 5</span>
       <h1>Thank You!</h1>
       <p>
